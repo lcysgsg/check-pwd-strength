@@ -14,7 +14,7 @@
  * @param {string} pwd - The password to calculate the strength level of.
  * @return {IPasswordStrengthLevel} The calculated strength level of the password.
  */
-export function checkPwdStrength(pwd) {
+function checkPwdStrength(pwd) {
     let level = 0
     if (!pwd) return level
 
@@ -33,3 +33,5 @@ export function checkPwdStrength(pwd) {
 
     return level
 }
+
+export default checkPwdStrength
