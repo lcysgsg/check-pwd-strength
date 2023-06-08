@@ -1,0 +1,16 @@
+{
+    "name": "check-pwd-strength",
+    "version": "1.0.0",
+    "description": "为一段字符串评定密码强度等级",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "pwd",
+        "password",
+        "level"
+    ],
+    "author": "lcysgsg",
+    "license": "ISC"
+}
